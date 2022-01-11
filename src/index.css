@@ -1,4 +1,10 @@
+html {
+  margin: 0;
+  padding: 0;
+}
 body {
+  background-color: rgb(40, 40, 40);
+  color: white;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,3 +17,398 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+p {
+  margin: 0;
+}
+.navbar-logo {
+  margin: auto;
+  
+}
+.App {
+  min-height: 100vh;
+  min-width: 100%;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ flex-direction: column;
+justify-content: space-between;
+}
+.mx-auto {
+  margin: auto;
+}
+.mx-right {
+  margin-right: 10px;
+}
+.container {
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.55rem;
+  min-height: 3vh;
+  background-color: black;
+}
+.navbar-header {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+
+
+}
+
+.navbar-header-link {
+  margin: auto;
+  margin-left: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.navbar-links {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.navbar-links-btn {
+  background: 0;
+  border: none;
+  border-radius: 5px;
+}
+.navbar-links-btn:hover {
+  color: gray;
+  background: rgb(40, 40, 40);
+}
+.navbar-links-link {
+  margin: auto;
+  margin-left: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.footer {
+  height: 150px;
+  width: 100%;
+  background-color: rgb(55, 55, 55);
+  display: flex;
+  justify-self: flex-end;
+  
+}
+.footer-svg {
+  color: white;
+  margin-bottom: 10px;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  display: flex;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+}
+.about {
+  
+  flex-direction: column;
+  margin: auto;
+}
+.not-found {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto
+}
+.not-found-text {
+  font-size: 2rem;
+}
+.not-found-nav {
+  border: solid 1px white;
+  padding: 20px;
+}
+.not-found-icon {
+  margin-right: 5px;
+}
+.not-found-link {
+  color: white;
+}
+.home {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+.spinner {
+  margin: auto
+}
+.search-results-container {
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: minmax(400px, 500px);
+  grid-gap: 30px;
+}
+
+.search-result {
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  box-shadow: 0 5px 5px 0px rgb(0, 0, 0);
+}
+.search-result-content {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+
+}
+.search-result-avatar {
+}
+.search-result-avatar-img {
+  border-radius: 50%;
+  border: solid 1px black
+}
+.search-result-title {
+  margin: auto;
+  margin-left: 10px;
+}
+.search-result-login {
+  font-weight: bold;
+}
+.search-result-link {
+  color: white;
+  text-decoration: none;
+  opacity: 0.4;
+}
+.search-result-link:hover {
+  opacity: 1;
+  color: lightgray;
+}
+
+.user-search {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  
+}
+.search-input {
+  font-size: 1.3rem;
+  
+}
+.search-submit {
+  font-size: 1.3rem;
+}
+.search-clear-btn {
+  border-radius: 8px;
+  color: lightgray;
+  border: none;
+  background: none;
+  font-size: 1rem;
+  margin-top: 5px;
+  cursor: pointer; 
+}
+.search-clear-btn:hover {
+  color: white;
+  background-color: rgb(34, 34, 34);
+}
+.alert-message {
+  color: red;
+  font-weight: bold;
+}
+.user-profile-container {
+  margin: auto;
+}
+
+
+
+.user-profile-margin {
+  margin: 20px;
+}
+.user-profile {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.user-profile-backtosearch {
+  color: white;
+  text-decoration: none;
+}
+.user-profile-backtosearch:hover {
+  color: lightgray
+}
+.user-profile-avatar * {
+  margin: 0;
+}
+.user-profile-name * {
+  margin: 0;
+}
+.user-profile-image {
+  border: solid black 1px;
+  border-radius: 10px;
+}
+.user-profile-details {
+  margin-left: 20px;
+}
+.user-profile-title {
+  margin-bottom: 10px;
+}
+.user-profile-title h1 {
+  margin: 0;
+}
+.user-profile-login {
+  
+  
+}
+.badges {
+  display: flex;
+  flex-direction: row;
+}
+.badge-type {
+  margin: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 0 7px 0 7px;
+  border-radius: 5px;
+  color: rgb(0, 211, 0);
+  background-color: rgba(0, 128, 0, 0.2);
+}
+.badge-hireable {
+  padding: 0 7px 0 7px;
+  border-radius: 5px;
+  color: rgb(0, 140, 255);
+  background-color: rgba(0, 0, 128, 0.2);
+}
+.user-profile-actions {
+  margin-top: 20px;
+}
+.user-profile-visit {
+  text-decoration: none;
+  border-radius: 5px;
+  border: solid white 1px;
+  color: gray;
+  padding: 5px 8px 5px 8px;
+}
+.user-profile-visit:hover {
+  color: lightgray;
+}
+.user-profile-stats-container {
+  margin-top: 23px;
+}
+.user-profile-stats {
+  margin-top: 10px;
+  box-shadow:rgb(0, 0, 0) 1px 1px 1px;
+}
+.extra-margin {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.stat-title {
+  color: gray;
+  padding: 10px 0 10px 0;
+}
+.stat {
+  color: white;
+}
+.website {
+  color: white;
+  text-decoration: none;
+}
+.stats-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.stats-flex-row-spacearound {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.fausers {
+  font-size: 2rem;
+}
+.stats-value {
+  color: white;
+}
+.text-gray {
+  color: gray
+}
+.repo-item {
+  background-color: rgb(25, 25, 25);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.repo-item h3 {
+  margin: 0;
+}
+.repo-item-content {
+  padding: 20px;
+}
+.FaLink-icon {
+  margin: auto;
+  display: inline;
+  margin-right: 10px;
+}
+.repo-title {
+  margin-bottom: 10px;
+}
+.repo-description {
+  margin-bottom: 10px;
+}
+.repo-title-link {
+  text-decoration: none;
+  color: white;
+}
+.repo-badges-container {
+  display: flex;
+  flex-direction: row;
+}
+.repo-badge {
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.repo-badge.watchers {
+ background-color: rgba(0, 0, 255, 0.12);
+ color: rgb(136, 136, 255);
+}
+.repo-badge.stargazers {
+  background-color: rgba(0, 128, 0, 0.12);
+  color: rgb(96, 190, 96);
+}
+.repo-badge.issues {
+  background-color: rgba(255, 0, 0, 0.12);
+  color: rgb(194, 89, 89);
+}
+.repo-badge.forks {
+  background-color: rgba(255, 255, 0, 0.12);
+  color: rgb(165, 165, 85);
+}
+.Fa-icon {
+  margin: auto;
+  margin-right: 0.5rem;
+}
+
+
+
+@media only screen and (min-width: 900px) {
+  .search-results-container {
+    grid-template-columns: minmax(400px, 500px) minmax(400px, 500px);
+  }
+  .user-profile {
+    flex-direction: row;
+  }
+}
+@media only screen and (min-width: 1266px) {
+  .search-results-container {
+    grid-template-columns: 400px 400px 400px;
+  }
+  .user-profile {
+    flex-direction: row;
+  }
+} 
